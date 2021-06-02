@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+.hidden { display: none; }
+
+#container {
+  width: 960px;
+  padding: 0 10px 0 10px;
+  margin: 0 auto; /* quick center */
+}
+
+#mainHeader { display: flex; flex-direction: row; }
+
+#mainNav {
+  height: 40px;
+  width: 290px;
+  background-color: #555434;
+  margin-bottom: 20px;
+}
+
+#subNav {
+  height: 40px;
+  width: 650px;
+  background-color: #23550b;
+}
+
+#logo {
+  margin-left: auto;
+  height: 100px;
+  width: 250px;
+  background-color: #f0aeae;
+}
+
+/* hero shot */
+#featuredCon { display: flex; flex-direction: row; }
+
+#featuredImage {
+  background-color: #3c4209;
+  width: 200px;
+  height: 300px;
+  margin-right: 60px;
+  margin-top: 30px;
+}
+
+#featuredImageDesc {
+  /* background-color: #75687a; */
+  width: 700px;
+  height: 300px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+#wideImage {
+  background-color: #3a5445;
+  width: 960px;
+  height: 200px;
+  margin-top: 30px;
+}
+
+/* promo stuff and social media */
+#promoCon {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+#socialMedia {
+  display: flex;
+  flex-direction: row;
+  width: 330px;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+#socialMedia div {
+  width: 100px;
+  height: 50px;
+  background-color: #e0b1cf;
+}
+
+#promoText {
+  width: 330px;
+  height: 310px;
+  background-color: #251e40;
+}
+
+#promoImage {
+  width: 570px;
+  height: 400px;
+  background-color: #c7d6dc;
+  margin-left: auto;
+}
+
+footer {
+  width: 960px;
+  margin: 0 auto;
+  height: 40px;
+  background-color: #442916;
+  margin-top: 20px;
+}
