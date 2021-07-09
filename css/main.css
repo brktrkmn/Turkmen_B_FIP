@@ -1,13 +1,19 @@
 @charset "UTF-8";
 
+img {
+
+}
+
 body {
   font-family: 'Karla', sans-serif;
-  font-size: 24px;
+  font-size: 1em;
   font-weight: 700;
   text-decoration: none;
   background-color: black;
   color: white;
 }
+
+
 
 a:link, a:visited
 {
@@ -28,199 +34,528 @@ li, a
 
 .hidden { display: none; }
 
-#container {
-  width: 1280px;
-  padding: 0 10px 0 10px;
-  margin: 0 auto; /* quick center */
-}
-
-#mainHeader {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-#mainNav {
-  display: flex;
-  flex-direction: row;
-  float: right;
-  height: 40px;
-  margin: 30px 40px 0 0;
-  text-align: center;
-}
-
-.navLink {
-  margin: 20px;
-  height: 40px;
-  font-size: 30px;
-  font-weight: 300;
-
-}
-
-#subNav {
-  height: 40px;
-  width: 650px;
-  background-color: #23550b;
-}
-
 #logo {
   margin: 20px;
-  height: 70%;
   width: 70%;
 }
 
-#wideCon {
-  display: flex;
-  flex-direction: column;
-}
-.imText {
-  position: absolute;
-  bottom: 20px;
-  left: 60px;
-  color: white;
-  padding-left: 5px;
-  padding-right: 20px;
-  font-size: 60px;
-  font-weight: 600;
-  line-height: 100px;
-  opacity: .6;
-  background-color: black;
-}
-
-
-/* hero shot */
-#hisResCon {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
- }
-
-.bottomImage {
-  width: 400px;
-  height: 500px;
-  margin: 50px;
-}
-
-#featuredImageDesc {
-  /* background-color: #75687a; */
-  width: 700px;
-  height: 300px;
-  margin-top: 30px;
-  margin-bottom: 0;
+#mainNav {
+  display: none;
 }
 
 #wideImage1 {
   background-color: #3a5445;
-  margin-top: 30px;
+  margin-top: 10px;
   position: relative;
+  width: 100%;
+  height: auto;
 }
 
 #wideImage2 {
   background-color: #3a5445;
   margin-top: 30px;
+  width: 100%;
+  height: auto;
 }
 
 #wideImage3 {
   background-color: #3a5445;
   margin-top: 30px;
-}
-.imcon3 {
-    position: relative;
-    display: inline-block;
-}
-.imText3 {
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    text-align: center;
-    top: 40%;
-    font-size: 60px;
+  width: 100%;
+  height: auto;
 }
 
-#socialMedia {
+.bottomImage {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+
+#logo2 {
+  width: 70%;
+}
+
+.sIconCon{
+  margin-top: 10px;
   display: flex;
-  flex-direction: row;
-  width: 330px;
-  justify-content: space-between;
-  margin-bottom: 40px;
-}
-
-#socialMedia div {
-  width: 100px;
-  height: 50px;
-  background-color: #e0b1cf;
-}
-
-#promoText {
-  width: 330px;
-  height: 310px;
-  background-color: #251e40;
-}
-
-footer {
-  font-size: 24px;
-  font-weight: 700;
-}
-
-#mainFooter {
-  width: 1280px;
-  margin: 0 auto;
-  height: 200px;
-  margin-top: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: #c3c9cd;
-}
-
-.footerLink {
-  margin: 20px;
-}
-
-#footerP {
-  margin-left: 20px;
-}
-
-#leftMenu {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
-  margin-left: 40px;
-}
-
-#socialCon {
-  display: flex;
-  flex-direction: row;
 }
 
 .sIcon {
-  width: 40px;
-  height: 40px;
-  margin-left: 15px;
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
   margin-bottom: 10px;
 }
 
-/*RESPONSIBILITY PAGE*/
-#resCon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.footerLink {
+  margin-top: 10px;
+  font-size: 0.5em;
+  font-weight: 300;
+  text-align: center;
 }
 
-.resImg {
+#footerP {
+  font-size: 0.5em;
+  font-weight: 300;
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* media query for tablet - 768px */
+@media screen and (min-width: 48em) {
+  #container {
+    padding: 0 10px 0 10px;
+    margin: 0 auto; /* quick center */
+  }
+
+  #mainHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #mainNav {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    height: 40px;
+    margin: 30px 40px 0 0;
+    text-align: center;
+  }
+
+  .navLink {
+    margin: 20px;
+    height: 40px;
+    font-size: 30px;
+    font-weight: 300;
+
+  }
+
+  #subNav {
+    height: 40px;
+    width: 650px;
+    background-color: #23550b;
+  }
+
+  #logo {
+    margin: 20px;
+    height: 70%;
+    width: 70%;
+    min-width: 200px;
+  }
+
+  #wideCon {
+    display: flex;
+    flex-direction: column;
+  }
+  .imText {
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+    color: white;
+    padding-left: 5px;
+    padding-right: 20px;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 100px;
+    opacity: .6;
+    background-color: black;
+  }
+
+
+  /* hero shot */
+  #hisResCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   }
+
+  .bottomImage {
     width: 400px;
     height: 500px;
     margin: 50px;
+  }
+
+  #featuredImageDesc {
+    /* background-color: #75687a; */
+    width: 700px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+
+  #wideImage1 {
+    background-color: #3a5445;
+    margin-top: 30px;
+    position: relative;
+  }
+
+  #wideImage2 {
+    background-color: #3a5445;
+    margin-top: 30px;
+  }
+
+  #wideImage3 {
+    background-color: #3a5445;
+    margin-top: 30px;
+  }
+  .imcon3 {
+      position: relative;
+      display: inline-block;
+  }
+  .imText3 {
+      position: absolute;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      text-align: center;
+      top: 40%;
+      font-size: 60px;
+  }
+
+  #socialMedia {
+    display: flex;
+    flex-direction: row;
+    width: 330px;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+  #socialMedia div {
+    width: 100px;
+    height: 50px;
+    background-color: #e0b1cf;
+  }
+
+  #promoText {
+    width: 330px;
+    height: 310px;
+    background-color: #251e40;
+  }
+
+  footer {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  #mainFooter {
+    width: 1280px;
+    margin: 0 auto;
+    height: 200px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #c3c9cd;
+  }
+
+  .footerLink {
+    margin: 20px;
+  }
+
+  #footerP {
+    margin: 20px 0 50px 20px;
+    font-size: 0.7em;
+    text-align: left;
+  }
+
+  .footerLink {
+    font-size: 0.7em;
+    text-align: left;
+  }
+
+  #leftMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+  }
+
+  #socialCon {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sIcon {
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+
+  /*RESPONSIBILITY PAGE*/
+  #resCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .resImg {
+      width: 400px;
+      height: 500px;
+      margin: 50px;
+  }
+
+  .resImg2 {
+      margin-bottom: 50px;
+  }
+
+  .resDesc {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0 80px;
+    margin-bottom: 40px;
+  }
 }
 
-.resImg2 {
-    margin-bottom: 50px;
+/*  C O N T A C T   P A G E */
+body {
+  font-size: 0.8em;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  background: url("images/hero2.jpg");
+  background-size: cover;
 }
 
-.resDesc {
-  font-size: 20px;
+.contact .content {
+  text-align: center;
+  max-width: 800px;
+}
+
+.content h2 {
+  font-size: 2em;
   font-weight: 300;
-  padding: 0 80px;
-  margin-bottom: 40px;
+  color: red;
+}
+
+.content p {
+  font-weight: 300;
+  color: #fff;
+}
+
+.text p {
+  font-size: 1em;
+  font-weight: 300;
+  min-width: 40%;
+}
+
+.conContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  display: flex;
+  position: relative;
+  padding: 20px
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: red;
+  height: 40px;
+  min-width: 40px;
+  border-radius: 50%;
+  font-size: 1em;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  font-size: 1em;
+  font-weight: 300;
+  color: #fff;
+}
+
+.conContainer h3 {
+  color: #fff;
+  font-weight: 500;
+}
+
+.contactForm {
+  background: #fff;
+  padding: 40px;
+  width: 100%;
+}
+
+.contactForm h2 {
+  color: black;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.inputBox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.inputBox span {
+  color: black;
+  font-weight: 300;
+  font-size: 0.8em;
+  position: absolute;
+  left: 0;
+}
+
+.inputBox input,
+.inputBox textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 1em;
+  margin: 15px 0;
+  border: none;
+  border-bottom: 2px solid red;
+  outline: none;
+  resize: none;
+  font-size: 1em;
+}
+
+.inputBox textarea {
+font-family: 'Karla', sans-serif;
+font-size: 0.8em;
+}
+
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 1em;
+  }
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    background: url("images/hero2.jpg");
+    background-size: cover;
+  }
+
+  .contact .content {
+    text-align: center;
+    max-width: 800px;
+  }
+
+  .content h2 {
+    font-size: 2em;
+    font-weight: 300;
+    color: red;
+  }
+
+  .content p {
+    font-weight: 300;
+    color: #fff;
+  }
+
+  .conContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .contactInfo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .box {
+    display: flex;
+    position: relative;
+    padding: 20px
+  }
+
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    height: 40px;
+    min-width: 40px;
+    border-radius: 50%;
+    font-size: 1em;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 1em;
+    font-weight: 300;
+    color: #fff;
+  }
+
+  .conContainer h3 {
+
+    font-weight: 500;
+  }
+
+  .contactForm {
+    background: #fff;
+    padding: 40px;
+    width: 40%;
+  }
+
+  .contactForm h2 {
+    color: black;
+    font-size: 1em;
+    font-weight: 500;
+  }
+
+  .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .inputBox span {
+    color: black;
+    font-weight: 300;
+    font-size: 0.8em;
+    position: absolute;
+    left: 0;
+  }
+
+  .inputBox input,
+  .inputBox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 1em;
+    margin: 15px 0;
+    border: none;
+    border-bottom: 2px solid red;
+    outline: none;
+    resize: none;
+    font-size: 1em;
+  }
+
+  .inputBox textarea {
+  font-family: 'Karla', sans-serif;
+  font-size: 0.8em;
+  }
 }
