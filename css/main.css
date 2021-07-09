@@ -35,18 +35,112 @@ li, a
 .hidden { display: none; }
 
 #logo {
-  margin: 20px;
-  width: 70%;
+  display: none;
+  width: 100%;
+  position: fixed;
+  align-self: center;
+}
+/*
+#mainNav {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  background: rgba(204, 34, 43, 0.4);
+}*/
+
+#mainHeader {
+  background: rgba(204, 34, 43, 0.4);
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  height: 50px;
 }
 
-#mainNav {
+#navCon {
+  position: absolute;
+  text-align: left;
+  top: 100%;
+  background: rgba(204, 34, 43, 0.4);
+  width: 100%;
+
+}
+
+nav {
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 400ms ease-in-out;
+}
+
+nav a {
+  opacity: 0;
+  transition:  opacity 150ms ease-in-out;
+}
+
+.navLink {
+  margin: 15px 0 15px 15px;;
+  font-weight: 300;
+}
+
+.navToggle {
   display: none;
 }
 
+.navToggleLabel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 1em;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navToggleLabel span,
+.navToggleLabel span::before,
+.navToggleLabel span::after {
+  display: block;
+  background: white;
+  height: 2px;
+  width: 2em;
+  border-radius: 2px;
+  position: relative;
+}
+
+.navToggleLabel span::before,
+.navToggleLabel span::after {
+  content: '';
+  position: absolute;
+}
+
+.navToggleLabel span::before {
+  bottom: 7px;
+}
+
+.navToggleLabel span::after {
+  top: 7px;
+}
+
+
+.navToggle:checked ~ nav {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.navToggle:checked ~ nav a {
+  opacity: 1;
+  transition:  opacity 250ms ease-in-out 250ms;
+
+}
+
+
+
+
+
 #wideImage1 {
   background-color: #3a5445;
-  margin-top: 10px;
-  position: relative;
+  margin-top: 200px;
+
   width: 100%;
   height: auto;
 }
@@ -310,9 +404,12 @@ li, a
 }
 
 /*  C O N T A C T   P A G E */
+
+/* Mobile first*/
 body {
   font-size: 0.8em;
 }
+
 .contact {
   display: flex;
   justify-content: center;
@@ -364,7 +461,7 @@ body {
 .box {
   display: flex;
   position: relative;
-  padding: 20px
+  padding: 10px
 }
 
 .icon {
@@ -394,8 +491,9 @@ body {
 
 .contactForm {
   background: #fff;
-  padding: 40px;
+  padding: 50px;
   width: 100%;
+  margin-top: 20px;
 }
 
 .contactForm h2 {
@@ -413,10 +511,22 @@ body {
 .inputBox span {
   color: black;
   font-weight: 300;
-  font-size: 0.8em;
+  font-size: 1em;
   position: absolute;
   left: 0;
+  padding: 5px 0;
+  transition: 0.5s;
+  color: #666;
 }
+
+.inputBox input:focus ~ span,
+.inputBox input:valid ~ span,
+.inputBox textarea:focus ~ span,
+.inputBox textarea:valid ~ span {
+  font-size: 0.8em;
+  transform: translateY(-10px);
+}
+
 
 .inputBox input,
 .inputBox textarea {
@@ -429,6 +539,7 @@ body {
   outline: none;
   resize: none;
   font-size: 1em;
+  overflow: auto;
 }
 
 .inputBox textarea {
@@ -474,8 +585,9 @@ font-size: 0.8em;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 50%;
     margin-top: 30px;
+
   }
 
   .contactInfo {
@@ -511,7 +623,7 @@ font-size: 0.8em;
   }
 
   .conContainer h3 {
-
+    color: #fff;
     font-weight: 500;
   }
 
