@@ -17,98 +17,77 @@
   <main id="container">
     <header id="mainHeader">
 
-      <input type="checkbox" id="navToggle" class="navToggle">
-      <nav id="navCon">
+
+      <nav id="mainNav">
+        <div><img src="images/logo.gif" alt="logo" id="logo"></div>
         <h2 class="hidden">Main Navigation</h2>
-        <ul id="mainNav">
-          <li class="navLink zoom"><a href="#">Products</a></li>
+        <ul class="navLinks">
+          <li class="navLink zoom"><a href="index.html">Home</a></li>
+          <li class="navLink zoom"><a href="our_beer.html">Our beer</a></li>
           <li class="navLink zoom"><a href="#">History</a></li>
           <li class="navLink zoom"><a href="responsibility.html">Responsibility</a></li>
           <li class="navLink zoom"><a href="contact.html">Contact</a></li>
+          <div class="socNav">
+            <li><img class="hImg" src="images/instagram.png" alt="instagram"></li>
+            <li><img class="hImg" src="images/facebook.png" alt="facebook"></li>
+            <li><img class="hImg" src="images/twitter.png" alt="twitter"></li>
+            <li><img class="hImg" src="images/youtube.png" alt="youtube"></li>
+          </div>
         </ul>
-      </nav>
-      <label for="navToggle" class="navToggleLabel">
-        <span></span>
-      </label>
-      <img id="logo" src="images/logo.gif" alt="logo">
-    </header>
-      <div id="wideCon">
-        <h3 class="hidden">Covid'19 Promotional</h3>
-        <div>
-          <div class="imcon3">
-            <img id="wideImage1" src="images/wide1.jpg" alt="Wide image 1">
-            <div class="imText">
-              <p>Hang in there..</p>
-              <p>We will reunite soon..</p>
-            </div>
-          </div>
-
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
         </div>
+      </nav>
+    </header>
+    <section id="hero">
 
-        <section>
-          <h2 class="hidden">Hero</h2>
-          <img id="wideImage2" src="images/hero2.jpg" alt="Hero">
-        </section>
+      <video src="videos/hero.mp4" loop muted autoplay></video>
 
-        <section >
-          <h2 class="hidden">Our products</h2>
-          <div class="imcon3">
-            <img id="wideImage3" src="images/wide1.jpg" alt="Our products">
-            <div class="imText3">
-              <p>(FPO) Our Products</p>
-            </div>
-          </div>
-        </section>
+      <div class="overlay"></div>
 
+      <div class="heroText">
+        <h3>Welcome to</h3>
+        <h2>Snuggle</h2>
+        <a class="actionButton"href="#">Explore</a>
       </div>
 
-      <section id="hisResCon">
-        <h2 class="hidden">Our History</h2>
+    </section>
 
-        <div class="imcon3">
-          <img class="histImg" src="images/history.jpg" alt="Our history">
-          <div class="imText3">
-            <p>(FPO) Our History</p>
+    <div id="respCon">
+      <section id="respCampaigns">
+        <header>
+
+          <h2>Enjoy responsibly</h2>
+        </header>
+        <section class="respBox">
+          <img class="image" src="images/bar_dispenser.jpg" alt="back to the bars">
+          <!-- <a class="image" href="#"><img alt="back to bars" src="images/bar_dispenser.jpg"></a> -->
+          <div class="respBorderBox">
+            <div class="boxTitle">
+              <h2>Back to bars</h2>
+            </div>
+            <p class="boxDesc">let's get together responsibly, so the bars can stay open</p>
           </div>
-        </div>
-
-        <div class="imcon3">
-          <a href="responsibility.html"><img class="bottomImage" src="images/sr.png" alt="
-            Social responsibility projects"></a>
-          <div class="imText3">
-            <a href="responsibility.html">(FPO) Social responsibility projects</a>
+        </section>
+        <section class="respBox">
+          <img class="image" src="images/wall_small.jpg" alt="back to the bars">
+          <div class="respBorderBox">
+            <div class="boxTitle">
+              <h2>Back to bars</h2>
+            </div>
+            <p class="boxDesc">let's get together responsibly, so the bars can stay open</p>
           </div>
-        </div>
-
+        </section>
 
       </section>
 
-    <footer id="mainFooter">
-      <h2 class="hidden">Footer Navigation</h2>
-      <div id="leftMenu">
-        <div>
-          <ul>
-            <li class="footerLink zoom"><a href="#">Contact Us</a></li>
-            <li class="footerLink zoom"><a href="#">Privacy Policy</a></li>
-            <li class="footerLink zoom"><a href="#">Terms and Conditions</a></li>
-          </ul>
-        </div>
-        <div id="socialCon">
-            <p id="footerP">Follow us</p>
-            <div class="sIconCon">
-              <a href="#"><img class="sIcon zoom" alt="instagram" src="images/instagram.png"></a>
-              <a href="#"><img class="sIcon zoom" alt="facebook" src="images/facebook.png"></a>
-              <a href="#"><img class="sIcon zoom" alt="twitter" src="images/twitter.png"></a>
-              <a href="#"><img class="sIcon zoom" alt="youtube" src="images/youtube.png"></a>
-            </div>
-        </div>
-      </div>
-      <img id="logo2" src="images/logoFooter.png" alt="logo">
 
-    </footer>
+    </div>
+
+
   </main>
-<script type="js/main.js">
-
-</script>
+    <script src="js/main.js"></script>
 </body>
 </html>
