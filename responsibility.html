@@ -10,60 +10,107 @@
   <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
   <title>SNUGGLE Beer</title>
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
 </head>
 <body>
-  <h1 class="hidden">Main page</h1>
+  <h1 class="hidden">Snuggle Beer Home page</h1>
 
   <main id="container">
     <header id="mainHeader">
-      <a href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a>
-      <nav id="navCon">
-        <h2 class="hidden">Main Navigation</h2>
-        <ul id="mainNav">
-          <li class="navLink zoom"><a href="#">Products</a></li>
-          <li class="navLink zoom"><a href="#">History</a></li>
-          <li class="navLink zoom"><a href="responsibility.html">Responsibility</a></li>
-          <li class="navLink zoom"><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+
+      <h2 class="hidden">Main Navigation</h2>
+      <div id="mainNav">
+
+        <div><img src="images/logo.gif" alt="logo" id="logo"></div>
+        <nav>
+          <ul class="navLinks">
+            <li class="navLink zoom"><a href="index.html">Home</a></li>
+            <li class="navLink zoom"><a href="our_beer.html">Our beer</a></li>
+            <li class="navLink zoom"><a href="shop.html">Merch store</a></li>
+            <li class="navLink zoom"><a href="responsibility.html">Enjoy responsibly</a></li>
+            <li class="navLink zoom"><a href="contact.html">Contact Us</a></li>
+            <div class="socNav">
+              <li><i class="hImg fab fa-instagram"></i></li>
+              <li><i class="hImg fab fa-twitter-square"></i></li>
+              <li><i class="hImg fab fa-facebook-square"></i></li>
+              <li><i class="hImg fab fa-youtube"></i></li>
+            </div>
+          </ul>
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </nav>
+      </div>
     </header>
 
-    <section id="resCon">
-      <img class="resImg" src="images/sr.png" alt="Social responsibility projects">
-      <div class="imText3">
-        <h2>(FPO)</h2>
-      </div>
-      <p class="resDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <img class="resImg2" src="images/res2.png" alt="Social responsibility projects">
-      <p class="resDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </section>
+    <div class="responsibility_box">
+      <img class="image" src="images/dog.jpg" alt="save animals">
+      <h2>ANIMAL & WILDLIFE PARTNERS</h2>
+      <p>Since day one we've donated 5% of our profits to animal and wildlife organizations to give back to the planet that gives us beer. See below for a list of our frequent partners.</p>
+      <p>With every SNUGGLE, you are helping animals.</p>
+    </div>
+
+    <div class="responsibility_box">
+      <img class="image" src="images/wind.jpg" alt="wind energy">
+      <h2>We use the wind</h2>
+      <p>We are focused on reducing our impact on the planet for three decades. We are leveraging the power of the wind to provide safe water to communities around the world. We're reducing pollution while providing a renewable, economical alternative to electricity. We're seeking out renewable energy options with the goal to procure 35% of our energy needs from renewable sources.</p>
+    </div>
+
+    <div class="responsibility_box">
+      <img class="image" src="images/dont_drink.jpg" alt="don't drink and drive">
+      <h2>Don't drink and drive</h2>
+      <p>For those who plan to drink, it’s important to plan ahead. Call an Uber or a taxi, assign a designated driver, or find a place to stay where you don’t have to drive.</p>
+      <p>It’s important for everyone to leave their car at home if they are planning to partake in any drinking, or the use of recreational drugs.</p>
+      <p>It isn’t just for your own safety, but for others too.</p>
+    </div>
+
+    <div class="responsibility_box">
+      <img class="image" src="images/diversity.jpg" alt="hiring diversity">
+      <h2>Diversity is important</h2>
+      <p>We facilitate aggressive diversity hiring goals.  Men, women, peoples with disabilities, Indigenous peoples, lesbian, gay, bisexual and transgender/transsexual (LGBT) peoples are all part of SNUGGLE.</p>
+    </div>
 
 
 
 
-    <footer id="mainFooter">
-      <section id="leftMenu">
-        <section>
-          <ul>
-            <li class="footerLink zoom"><a href="#">Contact Us</a></li>
-            <li class="footerLink zoom"><a href="#">Privacy Policy</a></li>
-            <li class="footerLink zoom"><a href="#">Terms and Conditions</a></li>
-          </ul>
-        </section>
-        <section id="socialCon">
-            <p id="footerP">Follow us</p>
-            <a href="#"><img class="sIcon zoom" alt="instagram" src="images/instagram.png"></a>
-            <a href="#"><img class="sIcon zoom" alt="facebook" src="images/facebook.png"></a>
-            <a href="#"><img class="sIcon zoom" alt="twitter" src="images/twitter.png"></a>
-            <a href="#"><img class="sIcon zoom" alt="youtube" src="images/youtube.png"></a>
-        </section>
-      </section>
-      <img id="logo2" src="images/logo.png" alt="logo">
 
-    </footer>
+
   </main>
-<script type="js/main.js">
 
-</script>
+  <footer id="mainFooter">
+    <img id="footerImg"src="images/bear.png" alt="">
+
+    <h2 class="hidden">Footer Navigation</h2>
+
+    <div id="leftMenu">
+        <nav>
+          <li class="footerLink zoom"><a href="#">Privacy policy</a></li>
+          <li class="footerLink zoom"><a href="#">Terms and conditions</a></li>
+          <li class="footerLink zoom"><a href="#">Cookie policy</a></li>
+        </nav>
+    </div>
+    <div id="centerMenu">
+        <nav>
+          <li class="footerLink zoom"><a href="our_beer.html">Our beer</a></li>
+          <li class="footerLink zoom"><a href="#">Merch store</a></li>
+          <li class="footerLink zoom"><a href="#">Enjoy responsibly</a></li>
+          <li class="footerLink zoom"><a href="#">Contact Us</a></li>
+        </nav>
+    </div>
+    <div id="socialCon">
+      <p id="footerP">Follow us</p>
+      <ul class="sIconCon">
+        <li><i class="hImg fab fa-instagram"></i></li>
+        <li><i class="hImg fab fa-twitter-square"></i></li>
+        <li><i class="hImg fab fa-facebook-square"></i></li>
+        <li><i class="hImg fab fa-youtube"></i></li>
+      </ul>
+    </div>
+
+
+  </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
