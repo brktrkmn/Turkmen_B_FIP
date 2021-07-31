@@ -4,40 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
-  <title>Contact Page</title>
-  <script src="https://kit.fontawesome.com/283a08f2ab.js" crossorigin="anonymous"></script>
+  <title>SNUGGLE Beer</title>
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
 </head>
 <body>
-  <header id="mainHeader">
+  <h1 class="hidden">Snuggle Beer Home page</h1>
 
-    <h2 class="hidden">Main Navigation</h2>
-    <div id="mainNav">
+  <main id="container">
+    <header id="mainHeader">
+
+      <h2 class="hidden">Main Navigation</h2>
+      <div id="mainNav">
 
         <div><img src="images/logo.gif" alt="logo" id="logo"></div>
-      <nav>
-        <ul class="navLinks">
-          <li class="navLink zoom"><a href="index.html">Home</a></li>
-          <li class="navLink zoom"><a href="our_beer.html">Our beer</a></li>
-          <li class="navLink zoom"><a href="shop.html">Shop</a></li>
-          <li class="navLink zoom"><a href="responsibility.html">Responsibility</a></li>
-          <li class="navLink zoom"><a href="contact.html">Contact</a></li>
-          <div class="socNav">
-            <li><img class="hImg" src="images/instagram.png" alt="instagram"></li>
-            <li><img class="hImg" src="images/facebook.png" alt="facebook"></li>
-            <li><img class="hImg" src="images/twitter.png" alt="twitter"></li>
-            <li><img class="hImg" src="images/youtube.png" alt="youtube"></li>
+        <nav>
+          <ul class="navLinks">
+            <li class="navLink zoom"><a href="index.html">Home</a></li>
+            <li class="navLink zoom"><a href="our_beer.html">Our beer</a></li>
+            <li class="navLink zoom"><a href="shop.html">Shop</a></li>
+            <li class="navLink zoom"><a href="responsibility.html">Responsibility</a></li>
+            <li class="navLink zoom"><a href="contact.html">Contact</a></li>
+            <div class="socNav">
+              <li><i class="hImg fab fa-instagram"></i></li>
+              <li><i class="hImg fab fa-twitter-square"></i></li>
+              <li><i class="hImg fab fa-facebook-square"></i></li>
+              <li><i class="hImg fab fa-youtube"></i></li>
+            </div>
+          </ul>
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
           </div>
-        </ul>
-        <div class="burger">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
-      </nav>
-    </div>
-  </header>
+        </nav>
+      </div>
+    </header>
 
   <div class="s-Woman">
     <img class="image" src="images/snuggling_woman.jpg" alt="let's snuggle!">
@@ -47,7 +53,7 @@
 
   <section class="contact">
     <div class="content">
-      <h2>Contact Us</h2>
+      <h2 class="categories-title-contact">Contact Us</h2>
     </div>
     <div class="conContainer">
       <div class="contactInfoCon">
@@ -100,6 +106,38 @@
     </div>
 
   </section>
+  <footer id="mainFooter">
+    <img id="footerImg"src="images/bear.png" alt="">
+
+    <h2 class="hidden">Footer Navigation</h2>
+
+    <div id="leftMenu">
+        <nav>
+          <li class="footerLink zoom"><a href="#">Privacy policy</a></li>
+          <li class="footerLink zoom"><a href="#">Terms and conditions</a></li>
+          <li class="footerLink zoom"><a href="#">Cookie policy</a></li>
+        </nav>
+    </div>
+    <div id="centerMenu">
+        <nav>
+          <li class="footerLink zoom"><a href="our_beer.html">Our beer</a></li>
+          <li class="footerLink zoom"><a href="#">Merch store</a></li>
+          <li class="footerLink zoom"><a href="#">Enjoy responsibly</a></li>
+          <li class="footerLink zoom"><a href="#">Contact Us</a></li>
+        </nav>
+    </div>
+    <div id="socialCon">
+      <p id="footerP">Follow us</p>
+      <ul class="sIconCon">
+        <li><i class="hImg fab fa-instagram"></i></li>
+        <li><i class="hImg fab fa-twitter-square"></i></li>
+        <li><i class="hImg fab fa-facebook-square"></i></li>
+        <li><i class="hImg fab fa-youtube"></i></li>
+      </ul>
+    </div>
+
+
+  </footer>
   <script src="js/main.js"></script>
 </body>
 </html>
