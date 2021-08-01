@@ -1,7 +1,7 @@
-# Burak Turkmen Midterm Project
+# SNUGGLE BEER - FINAL INTEGRATED PROJECT
 
 ## All about our product
-This midterm project is about creating 2 of the 5 pages website for the Final Integrated Project.
+This project is about creating a 5 page website for the Final Integrated Project.
 
 The project web page consists of the mashup of two brands:
 - BECK'S Beer
@@ -18,12 +18,20 @@ Using Terminal, Git and Github, project structure has been created as following:
 - images folder
 - includes folder
 - js folder
+- videos folder
+- contact.html
+- our_beer.html
 - index.html
 - responsibility.html
 - readme.md
 
 All files have been included in the correct folders.
 Repository has been linked.
+
+## FEATURES
+
+-3D Design
+
 
 ## License
 Copyright 2021 Burak Turkmen
