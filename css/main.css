@@ -181,10 +181,16 @@ video {
   color: white;
 }
 
-.heroText h2 {
-  font-size: 2em;
+.heroText p:first-child {
+  font-size: 1.5em;
   text-transform: uppercase;
   font-weight: 400;
+}
+
+.heroText p:nth-of-type(2) {
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .actionButton {
@@ -217,7 +223,7 @@ video {
   background-color:rgba(204, 34, 43, 0.5);
   text-align: center;
   padding: 5px 10px;
-
+  border: 1px solid black;
   bottom: 45%;
   position: absolute;
   text-transform: uppercase;
@@ -256,7 +262,7 @@ video {
   width: 70%;
 }
 
-.banner_title_with_desc h2 {
+.banner_title_with_desc p:first-child {
   text-align: center;
   margin: 5px;
   text-transform: uppercase;
@@ -428,10 +434,10 @@ video {
                                             /* ---------------- */
 
 .top_banner {
+  position: relative;
+  margin-bottom: 3em;
   display: flex;
   justify-content: center;
-  position: relative;
-  margin: 2em 0 4em 0;
 }
 
 .top_banner img {
@@ -439,7 +445,21 @@ video {
   width: 100%;
 }
 
-.top_banner_header {
+.categories-title-absolute {
+  text-transform: uppercase;
+  padding: 15px 10px;
+  background: rgba(204, 34, 43, 0.6);
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+  max-width: 350px;
+  position: absolute;
+  bottom: 0.6em;
+}
+
+/* .top_banner_header {
   color: white;
   position: absolute;
   display: block;
@@ -449,7 +469,7 @@ video {
 
 
 
-}
+} */
 
 .lightbox {
   position: absolute;
@@ -690,7 +710,7 @@ video {
 }
 
 .store_wrapper {
-  background-color: rgba(204,34,43,0.9);
+  background: rgba(204, 34, 43, 0.6);
   max-width: 1000px;
   margin: 0 auto;
   margin-top: 10em;
@@ -1106,7 +1126,7 @@ font-size: 0.8em;
     align-items: flex-start;
     height: 400px;
     margin-bottom: 5em;
-    background-color: #cc222b;
+    background-color:rgba(204, 34, 43, 0.7);
 
 
     padding: 36px;
@@ -1120,7 +1140,7 @@ font-size: 0.8em;
   .contactInfo {
     display: flex;
     flex-direction: column;
-
+    justify-content: center;
     height: 400px;
   }
 
@@ -1197,6 +1217,11 @@ font-size: 0.8em;
   .inputBox textarea {
   font-family: 'Karla', sans-serif;
   font-size: 0.8em;
+  }
+
+  .categories-title-absolute {
+    font-size: 2em;
+    bottom: 1em;
   }
 
 }
@@ -1419,6 +1444,12 @@ font-size: 0.8em;
 
     .hImg {
       margin: 0.5em;
+    }
+
+    .categories-title-absolute {
+      font-size: 2.3em;
+      bottom: 1.5em;
+
     }
 
   /* .responsibility_box h2, p {

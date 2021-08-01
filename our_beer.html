@@ -13,16 +13,17 @@
   <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
 </head>
 <body>
-  <h1 class="hidden">Our beer</h1>
+  <h1 class="hidden">Our beer page</h1>
 
   <main id="container">
     <header id="mainHeader">
 
-      <h2 class="hidden">Main Navigation</h2>
-      <div id="mainNav">
 
+      <section id="mainNav">
+      <h2 class="hidden">Main Navigation</h2>
         <div><img src="images/logo.gif" alt="logo" id="logo"></div>
         <nav>
+          <h3 class="hidden">Navigation links</h3>
           <ul class="navLinks">
             <li class="navLink zoom"><a href="index.html">Home</a></li>
             <li class="navLink zoom"><a href="our_beer.html">Our beer</a></li>
@@ -30,6 +31,7 @@
             <li class="navLink zoom"><a href="responsibility.html">Responsibility</a></li>
             <li class="navLink zoom"><a href="contact.html">Contact</a></li>
             <div class="socNav">
+              <h3 class="hidden">Social media links</h3>
               <li><i class="hImg fab fa-instagram"></i></li>
               <li><i class="hImg fab fa-twitter-square"></i></li>
               <li><i class="hImg fab fa-facebook-square"></i></li>
@@ -42,131 +44,90 @@
             <div class="line3"></div>
           </div>
         </nav>
-      </div>
+      </section>
     </header>
+
     <div class="top_banner">
       <img src="images/our_beer_top.jpg" alt="top banner">
-      <h2 class="top_banner_header">Discover our beer</h2>
-    </div>
-
-
-    <video class="snuggle_video" src="videos/hero.mp4#t=25" controls></video>
-
-    <nav id="infoIcons">
-      <ul id="infoIconList">
-        <li><div class="iconContainer water" data-offset="0"></div></li>
-        <li><div class="iconContainer barley" data-offset="1"></div></li>
-        <li><div class="iconContainer hop" data-offset="2"></div></li>
-        <li><div class="iconContainer yeast" data-offset="3"></div></li>
-      </ul>
-    </nav>
-
-    <div id="beerInfoWrapper">
-
-      <!-- <img id="info_image" src="images/natural.jpg" alt="info image"> -->
-      <div class="miniIconBoxWater" data-offset="0">
-        <img class="miniIcons" src="images/water.png" alt="water">
-      </div>
-
-      <div class="miniIconBoxBarley" data-offset="1">
-        <img class="miniIcons barley" src="images/barley.png" alt="barley">
-      </div>
-
-      <div class="miniIconBoxHop" data-offset="2">
-        <img class="miniIcons hop" src="images/hop.png" alt="barley">
-      </div>
-
-      <div class="miniIconBoxYeast" data-offset="3">
-        <img class="miniIcons yeast" src="images/yeast.png" alt="barley">
-      </div>
-
-      <section class="lightbox">
-            <span class="close-button">x</span>
-            <div id="water">
-              <header class="infoHeader">Water</header>
-              <p class="beerInfo">We use pure water from ancient aquifers, deep lakes and Rocky Mountain springs to make a more refreshing beer.</p>
-
-            </div>
-      </section>
-
-
-
-
-
+      <h2 class="categories-title-absolute">Discover SNUGGLE</h2>
 
     </div>
 
-    <!-- <div id="water" class="hidden">
-      <header class="infoHeader">Water</header>
-      <p class="beerInfo">We use pure water from ancient aquifers, deep lakes and Rocky Mountain springs to make a more refreshing beer.</p>
-      <h2 class="btn">back</h2>
-
-    </div>
-
-    <div id="barley" class="hidden">
-      <header class="infoHeader">Barley</header>
-      <p class="beerInfo">We use spring and winter barley varieties to keep your beer fresh all year. Our barley is purchased direcly from the organic barley producers in Ontario.</p>
-      <h2 class="btn">back</h2>
-    </div>
-
-    <div id="hops" class="hidden">
-      <header class="infoHeader">Hops</header>
-      <p class="beerInfo">Our "Citra" hops come from Washington. Tasting notes are primarily lemon and grass, with some other lightly sweet flavors thrown into the mix like lime and melon. Citra is fresh, light and sweet.</p>
-      <h2 class="btn">back</h2>
-    </div>
-
-    <div id="yeast" class="hidden">
-      <header class="infoHeader">Yeast</header>
-      <p class="beerInfo">Brewing yeast is the most essential of the four beer ingredients. Without it, we would just have bitter grain water that never fermented. We know that the correct strain of brewing yeast it critical to a perfect fermentation that's why we carry a wide variety of lager yeast from organic yeast producers in Ontario.</p>
-      <h2 class="btn">back</h2>
-    </div> -->
+    <section>
 
 
+      <video class="snuggle_video" src="videos/hero.mp4#t=25" controls></video>
 
-    <!-- <p>We brew with high quality, locally-sourced ingredients from across Ontario. </p>
-    <p>This is by far the freshest, best-tasting, unfiltered, preservative-free beer you can find in Oxford County.</p>
-    <p>Its longer brewing process produces a lighter body, fever calories and an easy drinking character.</p>
-    <p>Busch Beer is made with the finest ingredients, including a blend of premium hops, exceptional barley malt, fine grains and crisp water. This recipe delivers a refreshingly smooth taste & easy finish.</p> -->
-    <div id="nutritionBox">
-      <header class="nutriHeader">NUTRITIONAL INFORMATION</header>
-      <H3 class="per">PER 12 OZ.</H3>
-      <div class="valueBox">
-        <h2 class="item">ABV</h2>
-        <h2 class="value">5.2%</h2>
-      </div>
+      <nav id="infoIcons">
+        <h3 class="hidden">Infographic</h3>
+        <ul id="infoIconList">
+          <li><div class="iconContainer water" data-offset="0"></div></li>
+          <li><div class="iconContainer barley" data-offset="1"></div></li>
+          <li><div class="iconContainer hop" data-offset="2"></div></li>
+          <li><div class="iconContainer yeast" data-offset="3"></div></li>
+        </ul>
+      </nav>
 
-      <div class="valueBox">
-        <h2 class="item">Calories</h2>
-        <h2 class="value">97</h2>
-      </div>
+      <div id="beerInfoWrapper">
 
-      <div class="valueBox">
-        <h2 class="item">Carbs</h2>
-        <h2 class="value">6g</h2>
-      </div>
-
-      <div class="valueBox">
-        <h2 class="item">Fat</h2>
-        <h2 class="value">0g</h2>
-      </div>
-
-      <div class="valueBox">
-        <h2 class="item">Protein</h2>
-        <h2 class="value">1g</h2>
-      </div>
-
-    </div>
-
-
-
-  <!-- <section class="lightbox">
-        <span class="close-button">x</span>
-        <div id="water">
-          <header class="infoHeader">Water</header>
-          <p class="beerInfo">We use pure water from ancient aquifers, deep lakes and Rocky Mountain springs to make a more refreshing beer.</p>
-          <h2 class="btn">back</h2>
+        <!-- <img id="info_image" src="images/natural.jpg" alt="info image"> -->
+        <div class="miniIconBoxWater" data-offset="0">
+          <img class="miniIcons" src="images/water.png" alt="water">
         </div>
-  </section> -->
+
+        <div class="miniIconBoxBarley" data-offset="1">
+          <img class="miniIcons barley" src="images/barley.png" alt="barley">
+        </div>
+
+        <div class="miniIconBoxHop" data-offset="2">
+          <img class="miniIcons hop" src="images/hop.png" alt="barley">
+        </div>
+
+        <div class="miniIconBoxYeast" data-offset="3">
+          <img class="miniIcons yeast" src="images/yeast.png" alt="barley">
+        </div>
+
+        <div class="lightbox">
+              <span class="close-button">x</span>
+              <div id="water">
+                <p class="infoHeader">Water</p>
+                <p class="beerInfo">We use pure water from ancient aquifers, deep lakes and Rocky Mountain springs to make a more refreshing beer.</p>
+
+              </div>
+        </div>
+      </div>
+      <div id="nutritionBox">
+        <h3 class="hidden">Nutrition chart</h3>
+        <header class="nutriHeader">NUTRITIONAL INFORMATION</header>
+        <p class="per">PER 12 OZ.</p>
+        <div class="valueBox">
+          <p class="item">ABV</p>
+          <p class="value">5.2%</p>
+        </div>
+
+        <div class="valueBox">
+          <p class="item">Calories</p>
+          <p class="value">97</p>
+        </div>
+
+        <div class="valueBox">
+          <p class="item">Carbs</p>
+          <p class="value">6g</p>
+        </div>
+
+        <div class="valueBox">
+          <p class="item">Fat</p>
+          <p class="value">0g</p>
+        </div>
+
+        <div class="valueBox">
+          <p class="item">Protein</p>
+          <p class="value">1g</p>
+        </div>
+
+      </div>
+    </section>
+
   <div class="store_wrapper">
     <div class="store_header">
       <h2>BUY SNUGGLE ONLINE</h2>
@@ -184,9 +145,10 @@
   </div>
   </main>
   <footer id="mainFooter">
+    <h2 class="hidden">Footer Navigation</h2>
     <img id="footerImg"src="images/bear.png" alt="">
 
-    <h2 class="hidden">Footer Navigation</h2>
+
 
     <div id="leftMenu">
         <nav>
@@ -212,8 +174,6 @@
         <li><i class="hImg fab fa-youtube"></i></li>
       </ul>
     </div>
-
-
   </footer>
     <script src="js/main.js"></script>
     <script src="js/beerInfo.js"></script>
