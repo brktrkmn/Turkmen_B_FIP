@@ -42,6 +42,7 @@ body {
 }
 
 .navLinks a {
+  font-size: 1.5em;
   text-decoration: none;
   color: white;
   letter-spacing: 0px;
@@ -153,6 +154,19 @@ video {
   font-size: 1.5em;
 }
 
+.slogan {
+  color: red;
+  background-color:rgba(204, 34, 43, 0.5);
+  text-align: center;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  position: absolute;
+  border: 1px solid black;
+}
+
 .red_highlight_pointer {
   color: red;
   background-color:rgba(204, 34, 43, 0.5);
@@ -179,6 +193,7 @@ video {
   bottom: 20%;
   margin-left: 5vh;
   color: white;
+  cursor: pointer;
 }
 
 .heroText p:first-child {
@@ -226,7 +241,6 @@ video {
   border: 1px solid black;
   bottom: 45%;
   position: absolute;
-  text-transform: uppercase;
   color: white;
   text-decoration: none;
   font-size: 1.5em;
@@ -292,21 +306,59 @@ video {
   position: relative;
 }
 
-.s-Woman h3 {
+.innerImg {
   position: absolute;
-  font-size: 2em;
-  font-style: bold;
-  bottom: 30%;
-  left: 10%;
+  width: 30%;
+  height:auto;
+
+  bottom: 19%;
+  left: 25%;
+
 }
 
-.s-Woman h2 {
+.s-Woman p {
   position: absolute;
-  font-size: 3em;
-  font-style: bold;
-  bottom: 3%;
+  font-size: 2em;
+  font-weight: 700;
+  bottom: 20%;
   left: 10%;
   color: #cc222b;
+  font-style: italic;
+}
+
+.bars_banner {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin: 0 5px;
+  bottom: 5%;
+  background-color:rgba(204, 34, 43, 0.5);
+  padding: 5px 10px;
+  border: 1px solid black;
+}
+
+.bars_banner a:first-child {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #ffffff;
+  margin-bottom: 0.5em;
+}
+
+/* .bars_banner a:nth-child(2), a:nth-child(3) {
+  font-size: 1em;
+} */
+
+.boxDesc2 {
+  font-size: 1.2em;
+  text-decoration: none;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 0.3em;
+  font-weight: 400;
+}
+
+.boxDesc2 a {
+  text-align: left;
 }
 
 
@@ -314,7 +366,7 @@ video {
 
 #mainFooter {
 
-  height:100vh;
+  height:118vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -394,7 +446,7 @@ video {
 
 .footerLink {
   margin-top: 3em;
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: 300;
   text-align: center;
   list-style: none;
@@ -583,8 +635,8 @@ video {
 
 .miniIconBoxWater {
   position: absolute;
-  margin-top: 25%;
-  margin-left: 65%;
+  margin-top: 15%;
+  margin-left: 60%;
   padding: 12px;
   background-color:rgba(204, 34, 43, 0.5);
   border: solid black 2px;
@@ -597,8 +649,8 @@ video {
 
 .miniIconBoxBarley {
   position: absolute;
-  margin-top: 35%;
-  margin-left: 78%;
+  margin-top: 30%;
+  margin-left: 75%;
   background-color:rgba(204, 34, 43, 0.5);
   border: solid black 2px;
   border-radius: 14px;
@@ -610,7 +662,7 @@ video {
 
 .miniIconBoxHop {
   position: absolute;
-  margin-top: 45%;
+  margin-top: 40%;
   margin-left: 60%;
   padding: 12px;
   background-color:rgba(204, 34, 43, 0.5);
@@ -624,16 +676,30 @@ video {
 
 .miniIconBoxYeast {
   position: absolute;
-  margin-top: 60%;
-  margin-left: 78%;
+  margin-top: 55%;
+  margin-left: 75%;
   padding: 12px;
-  background-color:rgba(204, 34, 43, 0.7);
+  background-color:rgba(204, 34, 43, 0.5);
   border: solid black 2px;
   border-radius: 14px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   cursor: pointer;
+}
+
+.explanation {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  padding: 12px;
+  background-color:rgba(204, 34, 43, 0.5);
+  border: solid black 2px;
+  border-radius: 14px;
+  text-align: center;
+  width: 5em;
+  font-size: 10px;
+
 }
 
 .miniIcons {
@@ -856,7 +922,7 @@ video {
 }
 
 .featured-products-item > .price {
-  font-style: bold, italic;
+  font-style: italic;
   color: black;
   font-size: 1.2em;
   margin-top: 15px;
@@ -884,6 +950,17 @@ video {
                   /* ====================================== */
                   /* R E S P O N S I B I L I T Y   P A G E  */
                   /* ====================================== */
+
+.sBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.sBanner img {
+  width: 100%;
+}
 
 .responsibility_wrapper {
   color: white;
@@ -960,7 +1037,7 @@ body {
 
 .content p {
   font-weight: 300;
-  color: #black;
+  color: #000000;
 }
 
 .text p {
@@ -1018,7 +1095,7 @@ iframe {
   margin-left: 20px;
   font-size: 1em;
   font-weight: 300;
-  color: #black;
+  color: #000000;
 }
 
 .text h3 {
@@ -1026,7 +1103,7 @@ iframe {
 }
 
 .conContainer h3 {
-  color: #black;
+  color: #000000;
   font-weight: 500;
 }
 
@@ -1171,7 +1248,7 @@ font-size: 0.8em;
   }
 
   .conContainer h3 {
-    color: #black;
+    color: #000000;
     font-weight: 500;
   }
 
@@ -1224,6 +1301,30 @@ font-size: 0.8em;
     bottom: 1em;
   }
 
+  .miniIconBoxWater {
+    margin-top: 25%;
+    margin-left: 60%;
+    padding: 17px;
+  }
+
+  .miniIconBoxBarley {
+    margin-top: 35%;
+    margin-left: 77%;
+    padding: 5px;
+  }
+
+  .miniIconBoxHop {
+    margin-top: 45%;
+    margin-left: 60%;
+    padding: 17px;
+  }
+
+  .miniIconBoxYeast {
+    margin-top: 55%;
+    margin-left: 77%;
+    padding: 17px;
+  }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -1234,6 +1335,10 @@ font-size: 0.8em;
 
   .navLinks li {
     opacity: 1;
+  }
+
+  .navLinks a {
+    font-size: 1em;
   }
 
 
@@ -1252,39 +1357,17 @@ font-size: 0.8em;
     justify-content: space-around;
     opacity: 1;
     margin-top: 3vh;
-
-
     height: 5vh;
     background-image: none;
     transform: translateX(5%);
-    width: 40vh;
+    width: 42vh;
     font-size: 1em;
     position: inherit;
 
   }
 
-
-
-  /* .navLinks {
-    position: absolute;
-    right: 0px;
-    height: 40vh;
-    width: 30vh;
-    top: 8vh;
-    background-image: linear-gradient(black, #cc222b);
-    /* background-color: #cc222b; */ */
-
-    /* display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
-    transform: translateX(100%);
-    transition: transform 0.8s ease-in-out;
-    z-index: 4;
-  } */
-
   .navLink a {
-    color: red;
+    color: #ffffff;
   }
 
   .burger {
@@ -1295,10 +1378,10 @@ font-size: 0.8em;
     display: none;
   }
 
-  .s-Woman h3 {
+  .s-Woman p:first-child {
     position: absolute;
     font-size: 4em;
-    font-style: bold;
+    font-weight: 700;
     bottom: 30%;
     left: 10%;
   }
@@ -1306,12 +1389,15 @@ font-size: 0.8em;
   .s-Woman h2 {
     position: absolute;
     font-size: 5em;
-    font-style: bold;
+    font-weight: 700;
     bottom: 10%;
     left: 10%;
     color: #cc222b;
   }
 
+  .s-Woman p {
+    font-size: 3em;
+  }
 
   /* S H O P   P A G E */
 
@@ -1345,6 +1431,13 @@ font-size: 0.8em;
     line-height: 1.3em;
   }
 
+  .explanation {
+    top: 4%;
+    right: 4%;
+    width: 6em;
+    font-size: 1em;
+  }
+
 }
 
 @media screen and (min-width: 900px) {
@@ -1366,7 +1459,7 @@ font-size: 0.8em;
     height: 5vh;
     background-image: none;
     transform: translateX(5%);
-    width: 55vh;
+    width: 45vh;
     font-size: 1em;
     position: inherit;
   }
@@ -1375,13 +1468,20 @@ font-size: 0.8em;
     top: 20%;
   }
 
+  .miniIconBoxWater {
+    margin-top: 25%;
+    margin-left: 63%;
+    padding: 17px;
+  }
+
+
 }
 
 @media screen and (min-width: 1000px) {
   .navLinks {
 
     transform: translateX(10%);
-    width: 60vh;
+    width: 50vh;
     font-size: 1.2em;
     margin-top: 3vh;
   }
@@ -1433,27 +1533,38 @@ font-size: 0.8em;
     cursor: pointer;
   }
 
-    .footerLink {
-      margin-top: 1em;
-      font-size: 1em;
-    }
+  .footerLink {
+    margin-top: 1em;
+    font-size: 1em;
+  }
 
-    #footerP {
-      font-size: 1em;
-    }
+  #footerP {
+    font-size: 1em;
+  }
 
-    .hImg {
-      margin: 0.5em;
-    }
+  .hImg {
+    margin: 0.5em;
+  }
 
-    .categories-title-absolute {
-      font-size: 2.3em;
-      bottom: 1.5em;
+  .categories-title-absolute {
+    font-size: 2.3em;
+    bottom: 1.5em;
 
-    }
+  }
 
-  /* .responsibility_box h2, p {
-    margin: 2em;
-  } */
+  #socialCon {
+    margin-bottom: 3em;
+  }
+
+  .explanation {
+    top: 6%;
+    right: 6%;
+    width: 6em;
+    font-size: 1em;
+  }
+
+  .s-Woman p {
+    font-size: 4em;
+  }
 
 }
