@@ -3,7 +3,7 @@
 # SNUGGLE BEER - FINAL INTEGRATED PROJECT
 
 ## All about our product
-This project is about creating a 5 page website for the Final Integrated Project.
+This project is about creating a 5 page website using HTML, CSS and JavaScript for the Final Integrated Project.
 
 The project web page consists of the mashup of two brands:
 - BECK'S Beer
@@ -31,12 +31,17 @@ All files have been included in the correct folders.
 Repository has been linked.
 
 ## FEATURES
-
 - 3D elements --> All 3D objects and animations were built using Cinema 4D.
 - 2D elements --> All 2D animations were built using Adobe After Effects.
 - Graphics --> Logo and other various creations fir the FIP froject were created using Adobe Illustrator and Adobe Photoshop.
 - Visual effects --> All visual effects and color graded is done usind Adobe After Effects and Adobe Premiere.
 
+## CONTRIBUTING
+1. Fork the Project
+2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
+3. Commit your Changes (git commit -m 'Add some AmazingFeature')
+4. Push to the Branch (git push origin feature/AmazingFeature)
+5. Open a Pull Request
 
 ## License
 Copyright 2021 Burak Turkmen
