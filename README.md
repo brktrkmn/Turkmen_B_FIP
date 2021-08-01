@@ -1,4 +1,4 @@
-https://github.com/brktrkmn/Turkmen_B_FIP/blob/main/images/logo.gif
+![Logo](https://github.com/brktrkmn/Turkmen_B_FIP/blob/main/images/logo.gif)
 
 # SNUGGLE BEER - FINAL INTEGRATED PROJECT
 
