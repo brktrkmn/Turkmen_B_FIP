@@ -296,12 +296,6 @@ video {
   z-index: -3;
 }
 
-/* .banner_image {
-  background: url(../images/tshirt_index.jpg) no-repeat;
-  /* background-image: url('tshirt_index.jpg');
-  background-size: contain;
-} */
-
 .s-Woman {
   position: relative;
 }
@@ -1360,7 +1354,7 @@ font-size: 0.8em;
     height: 5vh;
     background-image: none;
     transform: translateX(5%);
-    width: 42vh;
+    width: 38vh;
     font-size: 1em;
     position: inherit;
 
@@ -1459,7 +1453,7 @@ font-size: 0.8em;
     height: 5vh;
     background-image: none;
     transform: translateX(5%);
-    width: 45vh;
+    width: 49vh;
     font-size: 1em;
     position: inherit;
   }
@@ -1479,9 +1473,8 @@ font-size: 0.8em;
 
 @media screen and (min-width: 1000px) {
   .navLinks {
-
     transform: translateX(10%);
-    width: 50vh;
+    width: 54vh;
     font-size: 1.2em;
     margin-top: 3vh;
   }
