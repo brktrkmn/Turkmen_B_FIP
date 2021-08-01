@@ -1,3 +1,5 @@
+https://github.com/brktrkmn/Turkmen_B_FIP/blob/main/images/splash_V2.jpg
+
 # SNUGGLE BEER - FINAL INTEGRATED PROJECT
 
 ## All about our product
@@ -30,7 +32,10 @@ Repository has been linked.
 
 ## FEATURES
 
--3D Design
+- 3D elements --> All 3D objects and animations were built using Cinema 4D.
+- 2D elements --> All 2D animations were built using Adobe After Effects.
+- Graphics --> Logo and other various creations fir the FIP froject were created using Adobe Illustrator and Adobe Photoshop.
+- Visual effects --> All visual effects and color graded is done usind Adobe After Effects and Adobe Premiere.
 
 
 ## License
