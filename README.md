@@ -1,4 +1,4 @@
-![Logo](https://github.com/trieucool274/Do_T_Group10_Bootcamp/blob/main/bootcamp/images/videoLogo.png)
+![Logo](https://github.com/brktrkmn/Turkmen_B_FIP/blob/main/images/logo.gif)
 
 # SNUGGLE BEER - FINAL INTEGRATED PROJECT
 
